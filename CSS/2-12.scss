@@ -1,0 +1,146 @@
+$colorOrange: #F38A0C;
+$colorWhite: #f9f9f9;
+$colorBlack: #1c1c1c;
+$colorRed: #DF5333;
+$colorBlue: rgb(37, 87, 158);
+
+
+* {
+    // outline: 0.5px solid olive;
+    transition: 1s;
+    object-fit: cover;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    opacity: 0;
+    color: $colorWhite;
+    text-align: center;
+}
+
+@mixin shapeWrap {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    max-width: 50%;
+    height: 600px;
+    margin: auto;
+    background: $colorBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &:hover {
+        .title {
+            opacity: 1;
+        }
+    }
+}
+
+#mascot-wrap {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    &:hover {
+        .title-eatable {
+            transition-delay: .5s;
+            opacity: 1;
+        }
+        #mascot-body {
+            transform: translateY(30px);
+            box-shadow: inset -8px 5px darken($colorOrange, 3), 10px 10px lighten($colorBlack, 10);
+            .eye-wrap {
+                .eye {
+                    .eyeball {
+                        transform: translateX(10px);
+                    }
+                }
+            }
+            .mouth-wrap {
+                .mouth {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .title-eatable {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+    #mascot-body {
+        width: 300px;
+        height: 400px;
+        border-radius: 200px / 100px;
+        background-color: $colorOrange;
+        position: relative;
+        box-shadow: inset -8px 5px darken($colorOrange, 3);
+        cursor: pointer;
+        &:active {
+            background: $colorRed;
+            box-shadow: inset -8px 5px darken($colorRed, 3);
+            .ear-wrap {
+                .ear {
+                    background: $colorRed;
+                }
+                .ear:nth-child(2) {
+                    box-shadow: inset 0px -8px darken($colorRed, 3);
+                }
+            }
+        }
+        .ear-wrap {
+            @include shapeWrap;
+            top: -3rem;
+            .ear {
+                width: 120px;
+                height: 120px;
+                background-color: $colorOrange;
+                clip-path: polygon(0 0, 0% 100%, 100% 100%);
+            }
+            .ear:nth-child(2) {
+                transform: rotate(270deg);
+                box-shadow: inset 0px -8px darken($colorOrange, 3);
+            }
+        }
+        .eye-wrap {
+            @include shapeWrap;
+            justify-content: space-around;
+            top: 5rem;
+            .eye {
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                background-color: $colorWhite;
+                .eyeball {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: $colorBlack;
+                }
+            }
+        }
+        .mouth-wrap {
+            @include shapeWrap;
+            justify-content: center;
+            top: 11rem;
+            .mouth {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background: darken($colorOrange, 5);
+            } 
+        }
+    }
+}
+
+
