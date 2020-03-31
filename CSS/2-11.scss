@@ -1,0 +1,94 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+$colorGreen: #61b872;
+$colorBlue: #34a5e2;
+$colorBrown: #d07f47;
+$colorRed: #fc5f5f;
+$colorYellow: #ffd428;
+$colors:($colorGreen,$colorBlue,$colorBrown,$colorRed,$colorYellow);
+
+// @mixin presentStyle ($size:100px, $presentColor:#fc5f5f, $ribbonColor:#fff, $rotateDeg:0deg) {
+//     width: $size;
+//     height: $size;
+//     position: relative;
+//     background: $presentColor;
+//     box-shadow: 0 0 20px rgba(black,0.5);
+//     transform: rotate($rotateDeg);
+//     margin: 1rem;
+//     &:hover {
+//         left: 3px;
+//         bottom: 3px;
+//     }
+// }
+
+@mixin presentStyle ($size, $presentColor, $ribbonColor, $rotateDeg) {
+    width: $size;
+    height: $size;
+    position: relative;
+    background: $presentColor;
+    box-shadow: 0 0 20px rgba(black,0.5);
+    transform: rotate($rotateDeg);
+    margin: 1rem;
+    transition: .5s;
+    &:hover {
+        left: 3px;
+        bottom: 3px;
+        background: nth($colors,random(5));
+    }
+}
+
+
+@for $i from 1 to 50 {
+    $size: random(50)+50;
+    $presentColor: nth($colors,random(5));
+    $ribbonColor: #f8f8f8;
+    // $ribbonColor: nth($colors,random(5));
+    // @if($presentColor == $ribbonColor){
+    //     $ribbonColor: nth($colors,random(5));
+    // }
+    $rotateDeg: random(20)-10;
+    .present#{$i}{
+        @include presentStyle(#{$size}px,$presentColor,$ribbonColor,#{$rotateDeg}deg);
+        .wRibbon, .hRibbon {
+            background-color: $ribbonColor;
+        }
+        .wRibbon {
+            width: 15%;
+            height: 100%;
+        }
+        .hRibbon {
+            width: 100%;
+            height: 15%;
+        }
+        .cover {
+            width: calc(100% + 10px);
+            height: 15%;
+            background-color: $presentColor;
+        }
+    }
+} 
+
+.wRibbon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hRibbon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cover {
+    position: absolute;
+    top: 0;
+    transform: translateX(-5px);
+    box-shadow: 0 0 20px rgba(black,0.5);
+}
