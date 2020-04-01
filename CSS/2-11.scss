@@ -30,6 +30,8 @@ $colors:($colorGreen,$colorBlue,$colorBrown,$colorRed,$colorYellow);
 // }
 
 @mixin presentStyle ($size, $presentColor, $ribbonColor, $rotateDeg) {
+    // 設定一個變數讓盒身和盒蓋同個顏色
+    $randomColor: nth($colors,random(5));
     width: $size;
     height: $size;
     position: relative;
@@ -37,14 +39,15 @@ $colors:($colorGreen,$colorBlue,$colorBrown,$colorRed,$colorYellow);
     box-shadow: 0 0 20px rgba(black,0.5);
     transform: rotate($rotateDeg);
     margin: 1rem;
-    transition: .5s;
     &:hover {
         left: 3px;
         bottom: 3px;
-        background: nth($colors,random(5));
+        background: $randomColor;
+      .cover {
+        background: $randomColor;
+      }
     }
 }
-
 
 @for $i from 1 to 50 {
     $size: random(50)+50;

@@ -11,23 +11,25 @@ body {
 }
 
 .present1 {
-  width: 55px;
-  height: 55px;
+  width: 87px;
+  height: 87px;
   position: relative;
-  background: #61b872;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present1:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #fc5f5f;
+}
+
+.present1:hover .cover {
+  background: #fc5f5f;
 }
 
 .present1 .wRibbon, .present1 .hRibbon {
@@ -47,27 +49,29 @@ body {
 .present1 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #fc5f5f;
 }
 
 .present2 {
-  width: 78px;
-  height: 78px;
+  width: 74px;
+  height: 74px;
   position: relative;
-  background: #d07f47;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(7deg);
           transform: rotate(7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present2:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #d07f47;
+}
+
+.present2:hover .cover {
+  background: #d07f47;
 }
 
 .present2 .wRibbon, .present2 .hRibbon {
@@ -87,27 +91,29 @@ body {
 .present2 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #61b872;
 }
 
 .present3 {
-  width: 58px;
-  height: 58px;
+  width: 54px;
+  height: 54px;
   position: relative;
-  background: #d07f47;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(6deg);
-          transform: rotate(6deg);
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present3:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #ffd428;
+}
+
+.present3:hover .cover {
+  background: #ffd428;
 }
 
 .present3 .wRibbon, .present3 .hRibbon {
@@ -127,26 +133,28 @@ body {
 .present3 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #ffd428;
 }
 
 .present4 {
-  width: 53px;
-  height: 53px;
+  width: 78px;
+  height: 78px;
   position: relative;
-  background: #ffd428;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present4:hover {
   left: 3px;
   bottom: 3px;
+  background: #34a5e2;
+}
+
+.present4:hover .cover {
   background: #34a5e2;
 }
 
@@ -167,27 +175,29 @@ body {
 .present4 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #d07f47;
 }
 
 .present5 {
-  width: 79px;
-  height: 79px;
+  width: 56px;
+  height: 56px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-4deg);
-          transform: rotate(-4deg);
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present5:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #ffd428;
+}
+
+.present5:hover .cover {
+  background: #ffd428;
 }
 
 .present5 .wRibbon, .present5 .hRibbon {
@@ -207,26 +217,28 @@ body {
 .present5 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present6 {
-  width: 87px;
-  height: 87px;
+  width: 82px;
+  height: 82px;
   position: relative;
-  background: #34a5e2;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present6:hover {
   left: 3px;
   bottom: 3px;
+  background: #61b872;
+}
+
+.present6:hover .cover {
   background: #61b872;
 }
 
@@ -247,27 +259,29 @@ body {
 .present6 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #34a5e2;
+  background-color: #61b872;
 }
 
 .present7 {
-  width: 69px;
-  height: 69px;
+  width: 64px;
+  height: 64px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-7deg);
-          transform: rotate(-7deg);
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present7:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #34a5e2;
+}
+
+.present7:hover .cover {
+  background: #34a5e2;
 }
 
 .present7 .wRibbon, .present7 .hRibbon {
@@ -287,27 +301,29 @@ body {
 .present7 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present8 {
-  width: 84px;
-  height: 84px;
+  width: 51px;
+  height: 51px;
   position: relative;
-  background: #fc5f5f;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present8:hover {
   left: 3px;
   bottom: 3px;
-  background: #d07f47;
+  background: #61b872;
+}
+
+.present8:hover .cover {
+  background: #61b872;
 }
 
 .present8 .wRibbon, .present8 .hRibbon {
@@ -327,26 +343,28 @@ body {
 .present8 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #d07f47;
 }
 
 .present9 {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   position: relative;
-  background: #ffd428;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present9:hover {
   left: 3px;
   bottom: 3px;
+  background: #34a5e2;
+}
+
+.present9:hover .cover {
   background: #34a5e2;
 }
 
@@ -367,26 +385,28 @@ body {
 .present9 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #fc5f5f;
 }
 
 .present10 {
-  width: 55px;
-  height: 55px;
+  width: 63px;
+  height: 63px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-9deg);
-          transform: rotate(-9deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present10:hover {
   left: 3px;
   bottom: 3px;
+  background: #61b872;
+}
+
+.present10:hover .cover {
   background: #61b872;
 }
 
@@ -407,27 +427,29 @@ body {
 .present10 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present11 {
-  width: 65px;
-  height: 65px;
+  width: 89px;
+  height: 89px;
   position: relative;
-  background: #61b872;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present11:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #d07f47;
+}
+
+.present11:hover .cover {
+  background: #d07f47;
 }
 
 .present11 .wRibbon, .present11 .hRibbon {
@@ -447,27 +469,29 @@ body {
 .present11 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #fc5f5f;
 }
 
 .present12 {
-  width: 62px;
-  height: 62px;
+  width: 68px;
+  height: 68px;
   position: relative;
   background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(8deg);
-          transform: rotate(8deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present12:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #d07f47;
+}
+
+.present12:hover .cover {
+  background: #d07f47;
 }
 
 .present12 .wRibbon, .present12 .hRibbon {
@@ -491,23 +515,25 @@ body {
 }
 
 .present13 {
-  width: 55px;
-  height: 55px;
+  width: 87px;
+  height: 87px;
   position: relative;
-  background: #61b872;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present13:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #fc5f5f;
+}
+
+.present13:hover .cover {
+  background: #fc5f5f;
 }
 
 .present13 .wRibbon, .present13 .hRibbon {
@@ -527,27 +553,29 @@ body {
 .present13 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #d07f47;
 }
 
 .present14 {
-  width: 98px;
-  height: 98px;
+  width: 90px;
+  height: 90px;
   position: relative;
-  background: #61b872;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present14:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #61b872;
+}
+
+.present14:hover .cover {
+  background: #61b872;
 }
 
 .present14 .wRibbon, .present14 .hRibbon {
@@ -567,26 +595,28 @@ body {
 .present14 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #fc5f5f;
 }
 
 .present15 {
-  width: 85px;
-  height: 85px;
+  width: 53px;
+  height: 53px;
   position: relative;
-  background: #fc5f5f;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present15:hover {
   left: 3px;
   bottom: 3px;
+  background: #d07f47;
+}
+
+.present15:hover .cover {
   background: #d07f47;
 }
 
@@ -607,27 +637,29 @@ body {
 .present15 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #34a5e2;
 }
 
 .present16 {
-  width: 64px;
-  height: 64px;
+  width: 83px;
+  height: 83px;
   position: relative;
-  background: #fc5f5f;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present16:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #61b872;
+}
+
+.present16:hover .cover {
+  background: #61b872;
 }
 
 .present16 .wRibbon, .present16 .hRibbon {
@@ -647,27 +679,29 @@ body {
 .present16 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #d07f47;
 }
 
 .present17 {
-  width: 83px;
-  height: 83px;
+  width: 60px;
+  height: 60px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(7deg);
-          transform: rotate(7deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present17:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #d07f47;
+}
+
+.present17:hover .cover {
+  background: #d07f47;
 }
 
 .present17 .wRibbon, .present17 .hRibbon {
@@ -687,27 +721,29 @@ body {
 .present17 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present18 {
-  width: 77px;
-  height: 77px;
+  width: 96px;
+  height: 96px;
   position: relative;
-  background: #34a5e2;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present18:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #fc5f5f;
+}
+
+.present18:hover .cover {
+  background: #fc5f5f;
 }
 
 .present18 .wRibbon, .present18 .hRibbon {
@@ -727,26 +763,28 @@ body {
 .present18 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #34a5e2;
+  background-color: #d07f47;
 }
 
 .present19 {
-  width: 100px;
-  height: 100px;
+  width: 88px;
+  height: 88px;
   position: relative;
-  background: #fc5f5f;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present19:hover {
   left: 3px;
   bottom: 3px;
+  background: #fc5f5f;
+}
+
+.present19:hover .cover {
   background: #fc5f5f;
 }
 
@@ -767,26 +805,28 @@ body {
 .present19 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #ffd428;
 }
 
 .present20 {
-  width: 61px;
-  height: 61px;
+  width: 55px;
+  height: 55px;
   position: relative;
-  background: #61b872;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-6deg);
-          transform: rotate(-6deg);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present20:hover {
   left: 3px;
   bottom: 3px;
+  background: #fc5f5f;
+}
+
+.present20:hover .cover {
   background: #fc5f5f;
 }
 
@@ -807,27 +847,29 @@ body {
 .present20 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #ffd428;
 }
 
 .present21 {
-  width: 82px;
-  height: 82px;
+  width: 91px;
+  height: 91px;
   position: relative;
   background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-9deg);
-          transform: rotate(-9deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present21:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #34a5e2;
+}
+
+.present21:hover .cover {
+  background: #34a5e2;
 }
 
 .present21 .wRibbon, .present21 .hRibbon {
@@ -851,22 +893,24 @@ body {
 }
 
 .present22 {
-  width: 70px;
-  height: 70px;
+  width: 57px;
+  height: 57px;
   position: relative;
-  background: #d07f47;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(9deg);
           transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present22:hover {
   left: 3px;
   bottom: 3px;
+  background: #61b872;
+}
+
+.present22:hover .cover {
   background: #61b872;
 }
 
@@ -887,27 +931,29 @@ body {
 .present22 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #34a5e2;
 }
 
 .present23 {
-  width: 54px;
-  height: 54px;
+  width: 51px;
+  height: 51px;
   position: relative;
   background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present23:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #61b872;
+}
+
+.present23:hover .cover {
+  background: #61b872;
 }
 
 .present23 .wRibbon, .present23 .hRibbon {
@@ -931,22 +977,24 @@ body {
 }
 
 .present24 {
-  width: 97px;
-  height: 97px;
+  width: 55px;
+  height: 55px;
   position: relative;
-  background: #fc5f5f;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-6deg);
-          transform: rotate(-6deg);
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present24:hover {
   left: 3px;
   bottom: 3px;
+  background: #d07f47;
+}
+
+.present24:hover .cover {
   background: #d07f47;
 }
 
@@ -967,27 +1015,29 @@ body {
 .present24 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #61b872;
 }
 
 .present25 {
-  width: 74px;
-  height: 74px;
+  width: 77px;
+  height: 77px;
   position: relative;
-  background: #61b872;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-6deg);
-          transform: rotate(-6deg);
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present25:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #34a5e2;
+}
+
+.present25:hover .cover {
+  background: #34a5e2;
 }
 
 .present25 .wRibbon, .present25 .hRibbon {
@@ -1007,27 +1057,29 @@ body {
 .present25 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #fc5f5f;
 }
 
 .present26 {
-  width: 76px;
-  height: 76px;
+  width: 71px;
+  height: 71px;
   position: relative;
-  background: #34a5e2;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present26:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #34a5e2;
+}
+
+.present26:hover .cover {
+  background: #34a5e2;
 }
 
 .present26 .wRibbon, .present26 .hRibbon {
@@ -1047,26 +1099,28 @@ body {
 .present26 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #34a5e2;
+  background-color: #d07f47;
 }
 
 .present27 {
-  width: 94px;
-  height: 94px;
+  width: 78px;
+  height: 78px;
   position: relative;
-  background: #d07f47;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-8deg);
-          transform: rotate(-8deg);
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present27:hover {
   left: 3px;
   bottom: 3px;
+  background: #34a5e2;
+}
+
+.present27:hover .cover {
   background: #34a5e2;
 }
 
@@ -1087,27 +1141,29 @@ body {
 .present27 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #ffd428;
 }
 
 .present28 {
   width: 70px;
   height: 70px;
   position: relative;
-  background: #34a5e2;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present28:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #61b872;
+}
+
+.present28:hover .cover {
+  background: #61b872;
 }
 
 .present28 .wRibbon, .present28 .hRibbon {
@@ -1127,27 +1183,29 @@ body {
 .present28 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #34a5e2;
+  background-color: #61b872;
 }
 
 .present29 {
-  width: 61px;
-  height: 61px;
+  width: 92px;
+  height: 92px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present29:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #61b872;
+}
+
+.present29:hover .cover {
+  background: #61b872;
 }
 
 .present29 .wRibbon, .present29 .hRibbon {
@@ -1167,27 +1225,29 @@ body {
 .present29 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present30 {
-  width: 84px;
-  height: 84px;
+  width: 91px;
+  height: 91px;
   position: relative;
   background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-4deg);
-          transform: rotate(-4deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present30:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #34a5e2;
+}
+
+.present30:hover .cover {
+  background: #34a5e2;
 }
 
 .present30 .wRibbon, .present30 .hRibbon {
@@ -1211,22 +1271,24 @@ body {
 }
 
 .present31 {
-  width: 59px;
-  height: 59px;
+  width: 64px;
+  height: 64px;
   position: relative;
-  background: #d07f47;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present31:hover {
   left: 3px;
   bottom: 3px;
+  background: #34a5e2;
+}
+
+.present31:hover .cover {
   background: #34a5e2;
 }
 
@@ -1247,27 +1309,29 @@ body {
 .present31 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #61b872;
 }
 
 .present32 {
-  width: 88px;
-  height: 88px;
+  width: 53px;
+  height: 53px;
   position: relative;
-  background: #fc5f5f;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-7deg);
-          transform: rotate(-7deg);
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present32:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #61b872;
+}
+
+.present32:hover .cover {
+  background: #61b872;
 }
 
 .present32 .wRibbon, .present32 .hRibbon {
@@ -1287,27 +1351,29 @@ body {
 .present32 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #61b872;
 }
 
 .present33 {
-  width: 82px;
-  height: 82px;
+  width: 91px;
+  height: 91px;
   position: relative;
-  background: #61b872;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present33:hover {
   left: 3px;
   bottom: 3px;
-  background: #d07f47;
+  background: #61b872;
+}
+
+.present33:hover .cover {
+  background: #61b872;
 }
 
 .present33 .wRibbon, .present33 .hRibbon {
@@ -1327,27 +1393,29 @@ body {
 .present33 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #fc5f5f;
 }
 
 .present34 {
-  width: 96px;
-  height: 96px;
+  width: 52px;
+  height: 52px;
   position: relative;
-  background: #61b872;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-4deg);
-          transform: rotate(-4deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present34:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #d07f47;
+}
+
+.present34:hover .cover {
+  background: #d07f47;
 }
 
 .present34 .wRibbon, .present34 .hRibbon {
@@ -1367,27 +1435,29 @@ body {
 .present34 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #ffd428;
 }
 
 .present35 {
-  width: 82px;
-  height: 82px;
+  width: 94px;
+  height: 94px;
   position: relative;
-  background: #ffd428;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present35:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #fc5f5f;
+}
+
+.present35:hover .cover {
+  background: #fc5f5f;
 }
 
 .present35 .wRibbon, .present35 .hRibbon {
@@ -1407,27 +1477,29 @@ body {
 .present35 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #34a5e2;
 }
 
 .present36 {
-  width: 51px;
-  height: 51px;
+  width: 59px;
+  height: 59px;
   position: relative;
-  background: #61b872;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present36:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #d07f47;
+}
+
+.present36:hover .cover {
+  background: #d07f47;
 }
 
 .present36 .wRibbon, .present36 .hRibbon {
@@ -1447,27 +1519,29 @@ body {
 .present36 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #d07f47;
 }
 
 .present37 {
-  width: 66px;
-  height: 66px;
+  width: 84px;
+  height: 84px;
   position: relative;
-  background: #34a5e2;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present37:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #d07f47;
+}
+
+.present37:hover .cover {
+  background: #d07f47;
 }
 
 .present37 .wRibbon, .present37 .hRibbon {
@@ -1487,27 +1561,29 @@ body {
 .present37 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #34a5e2;
+  background-color: #d07f47;
 }
 
 .present38 {
-  width: 68px;
-  height: 68px;
+  width: 92px;
+  height: 92px;
   position: relative;
   background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present38:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #fc5f5f;
+}
+
+.present38:hover .cover {
+  background: #fc5f5f;
 }
 
 .present38 .wRibbon, .present38 .hRibbon {
@@ -1531,23 +1607,25 @@ body {
 }
 
 .present39 {
-  width: 100px;
-  height: 100px;
+  width: 74px;
+  height: 74px;
   position: relative;
-  background: #fc5f5f;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present39:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #d07f47;
+}
+
+.present39:hover .cover {
+  background: #d07f47;
 }
 
 .present39 .wRibbon, .present39 .hRibbon {
@@ -1567,27 +1645,29 @@ body {
 .present39 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #61b872;
 }
 
 .present40 {
-  width: 55px;
-  height: 55px;
+  width: 75px;
+  height: 75px;
   position: relative;
   background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present40:hover {
   left: 3px;
   bottom: 3px;
-  background: #d07f47;
+  background: #fc5f5f;
+}
+
+.present40:hover .cover {
+  background: #fc5f5f;
 }
 
 .present40 .wRibbon, .present40 .hRibbon {
@@ -1611,23 +1691,25 @@ body {
 }
 
 .present41 {
-  width: 73px;
-  height: 73px;
+  width: 90px;
+  height: 90px;
   position: relative;
-  background: #61b872;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(6deg);
-          transform: rotate(6deg);
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present41:hover {
   left: 3px;
   bottom: 3px;
-  background: #34a5e2;
+  background: #d07f47;
+}
+
+.present41:hover .cover {
+  background: #d07f47;
 }
 
 .present41 .wRibbon, .present41 .hRibbon {
@@ -1647,27 +1729,29 @@ body {
 .present41 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #61b872;
+  background-color: #34a5e2;
 }
 
 .present42 {
-  width: 62px;
-  height: 62px;
+  width: 74px;
+  height: 74px;
   position: relative;
-  background: #fc5f5f;
+  background: #34a5e2;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present42:hover {
   left: 3px;
   bottom: 3px;
-  background: #d07f47;
+  background: #ffd428;
+}
+
+.present42:hover .cover {
+  background: #ffd428;
 }
 
 .present42 .wRibbon, .present42 .hRibbon {
@@ -1687,27 +1771,29 @@ body {
 .present42 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #34a5e2;
 }
 
 .present43 {
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   position: relative;
-  background: #d07f47;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-4deg);
-          transform: rotate(-4deg);
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present43:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #34a5e2;
+}
+
+.present43:hover .cover {
+  background: #34a5e2;
 }
 
 .present43 .wRibbon, .present43 .hRibbon {
@@ -1727,27 +1813,29 @@ body {
 .present43 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #d07f47;
+  background-color: #fc5f5f;
 }
 
 .present44 {
-  width: 77px;
-  height: 77px;
+  width: 95px;
+  height: 95px;
   position: relative;
-  background: #fc5f5f;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-8deg);
-          transform: rotate(-8deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present44:hover {
   left: 3px;
   bottom: 3px;
-  background: #fc5f5f;
+  background: #34a5e2;
+}
+
+.present44:hover .cover {
+  background: #34a5e2;
 }
 
 .present44 .wRibbon, .present44 .hRibbon {
@@ -1767,27 +1855,29 @@ body {
 .present44 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #d07f47;
 }
 
 .present45 {
-  width: 85px;
-  height: 85px;
+  width: 88px;
+  height: 88px;
   position: relative;
   background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present45:hover {
   left: 3px;
   bottom: 3px;
-  background: #61b872;
+  background: #d07f47;
+}
+
+.present45:hover .cover {
+  background: #d07f47;
 }
 
 .present45 .wRibbon, .present45 .hRibbon {
@@ -1811,22 +1901,24 @@ body {
 }
 
 .present46 {
-  width: 77px;
-  height: 77px;
+  width: 67px;
+  height: 67px;
   position: relative;
-  background: #ffd428;
+  background: #fc5f5f;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-7deg);
-          transform: rotate(-7deg);
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present46:hover {
   left: 3px;
   bottom: 3px;
+  background: #ffd428;
+}
+
+.present46:hover .cover {
   background: #ffd428;
 }
 
@@ -1847,27 +1939,29 @@ body {
 .present46 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #fc5f5f;
 }
 
 .present47 {
-  width: 69px;
-  height: 69px;
+  width: 91px;
+  height: 91px;
   position: relative;
-  background: #ffd428;
+  background: #61b872;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present47:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #34a5e2;
+}
+
+.present47:hover .cover {
+  background: #34a5e2;
 }
 
 .present47 .wRibbon, .present47 .hRibbon {
@@ -1887,27 +1981,29 @@ body {
 .present47 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #61b872;
 }
 
 .present48 {
-  width: 80px;
-  height: 80px;
+  width: 79px;
+  height: 79px;
   position: relative;
-  background: #fc5f5f;
+  background: #ffd428;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present48:hover {
   left: 3px;
   bottom: 3px;
-  background: #d07f47;
+  background: #ffd428;
+}
+
+.present48:hover .cover {
+  background: #ffd428;
 }
 
 .present48 .wRibbon, .present48 .hRibbon {
@@ -1927,27 +2023,29 @@ body {
 .present48 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #fc5f5f;
+  background-color: #ffd428;
 }
 
 .present49 {
-  width: 91px;
-  height: 91px;
+  width: 64px;
+  height: 64px;
   position: relative;
-  background: #ffd428;
+  background: #d07f47;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
   margin: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 .present49:hover {
   left: 3px;
   bottom: 3px;
-  background: #ffd428;
+  background: #34a5e2;
+}
+
+.present49:hover .cover {
+  background: #34a5e2;
 }
 
 .present49 .wRibbon, .present49 .hRibbon {
@@ -1967,7 +2065,7 @@ body {
 .present49 .cover {
   width: calc(100% + 10px);
   height: 15%;
-  background-color: #ffd428;
+  background-color: #d07f47;
 }
 
 .wRibbon {
