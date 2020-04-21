@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #50a1bf;
+  font-size: 20px;
+  font-family: '微軟正黑體';
+  background-image: radial-gradient(#ccc 0%, #ccc 20%, transparent 20%, transparent 40%, #ccc 55%, #ccc 60%, transparent 60%);
+  background-size: 25px 25px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  border: 1px solid #50a1bf;
+}
+
+.bgBlue {
+  background-color: #50a1bf;
+  color: #fff;
+}
+
+header {
+  padding: .5rem 1rem;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+}
+
+header h1 a {
+  background-image: url(https://image.flaticon.com/icons/svg/2405/2405255.svg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+main .ticketInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: .5rem 1rem;
+}
+
+main .ticketInfo li {
+  width: 50%;
+}
+
+main .ticketInfo li h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+main .ticketInfo li:nth-child(1) {
+  width: 100%;
+}
+
+main .seatInfo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: .5rem;
+}
+
+main .seatInfo h2:nth-child(2) {
+  height: 50px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 2;
+  padding-left: .5rem;
+  margin-top: .5rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer h2 {
+  padding: .5rem 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+/*# sourceMappingURL=6-01.css.map */

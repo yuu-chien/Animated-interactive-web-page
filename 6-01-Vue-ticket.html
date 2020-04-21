@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/6-01.css">
+    <title>第 6 章，第 1 單元 - Vue 張票</title>
+</head>
+<body>
+
+    <div id="app" class="container">
+        <header class="bgBlue">
+            <h1>
+                <a :href="link" target="_blank">YOOO FLIGHT</a>
+                YOOO FLIGHT
+            </h1>
+        </header>
+        <main>
+            <ul class="ticketInfo">
+                <li>
+                    NAME 
+                    <h3>{{name}}</h3>
+                </li>
+                <li>
+                    FLIGHT 
+                    <h3>{{flight}}</h3>
+                </li>
+                <li>
+                    GATE 
+                    <h3>{{gate}}</h3>
+                </li>
+                <li>
+                    PRICE 
+                    <h3>$ {{price*discount}}</h3>
+                </li>
+                <li>
+                    TIME 
+                    <h3>{{time}}</h3>
+                </li>
+            </ul>
+            <div class="seatInfo">
+                <h2>SEAT</h2>
+                <h2 class="bgBlue">{{seat}}</h2>
+            </div>
+        </main>
+        <footer class="bgBlue">
+            <h2>FROM<br>{{from}}</h2>
+            <h2> → </h2>
+            <h2>TO<br>{{to}}</h2>
+        </footer>
+    </div>
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            date: "2020.01.01-01.03",
+            time: "06 : 30",
+            from: "Taiwan",
+            to: "United States",
+            gate: "01",
+            flight: "010010A",
+            name: "SAM SMITH",
+            seat: "23C",
+            price: 6000,
+            discount: 0.9,
+            link: "https://www.caa.gov.tw/",
+        }
+    })
+
+</script>
+</body>
+</html>
